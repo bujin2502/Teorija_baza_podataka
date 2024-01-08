@@ -31,8 +31,6 @@ app.get('/', (req, res) => {
     });
 });
 
-// CREATE (:HDUsage {CPU: 2, oznaka: 2, timestamp: date("2023-06-08"), usage: 64.3})
-
 app.post('/izmjena_hdd', function (req, res) {
     
     var usage = req.body.usage;
@@ -49,7 +47,7 @@ app.post('/izmjena_hdd', function (req, res) {
     });
     });
 
-    app.post('/izmjena_printer', function (req, res) {
+app.post('/izmjena_printer', function (req, res) {
     
         var id = req.body.id;
         var status = req.body.status;
