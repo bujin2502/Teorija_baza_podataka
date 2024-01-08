@@ -18,7 +18,10 @@ Nakon skidanja koda u novokreiranu mapu potrebno je u toj mapi pokrenuti Termina
 ```bash
 # Instalacija NPM ovisnosti
 npm install
+```
 
 
+```bash
 # Pokretanje aplikacije
 node app.js
+```
