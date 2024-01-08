@@ -1,0 +1,23 @@
+<html lang="hr">
+  <%- include("./partials/head.ejs") %>
+  <body>
+    <%- include("./partials/nav.ejs") %>
+    <h1>Izmjena statusa printera</h1>
+    <form action="/izmjena_printer" method="POST">
+      <label for="id">Printer</label>
+      <select name="id" id="id">
+        <option value="001">Printer 001</option>
+        <option value="002">Printer 002</option>
+      </select>
+      <br><br>
+      <label for="status">Status</label>
+      <select name="status" id="status">
+        <option value="Uključen">Uključen</option>
+        <option value="Isključen">Isključen</option>
+      </select>
+      <br><br>
+      <button type="submit">Pošalji</button>
+    </form>
+
+    <%- include("./partials/footer.ejs") %>
+  </body

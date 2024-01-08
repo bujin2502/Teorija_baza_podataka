@@ -1,0 +1,15 @@
+<html lang="hr">
+<%- include("./partials/head.ejs") %>
+
+  <body>
+    <%- include("./partials/nav.ejs") %>
+      <h1>Izmjena zauzetosti HDD servera</h1>
+      <form action="/izmjena_hdd" method="POST">
+        <label for="usage">Postotak zauzetosti HDD</label>
+        <input type="number" name="usage" id="usage" />
+        <br><br>
+        <button type="submit">Pošalji</button>
+      </form>
+      
+      <%- include("./partials/footer.ejs") %>
+  </body

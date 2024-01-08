@@ -1,0 +1,25 @@
+{
+  "name": "tbp_app",
+  "version": "1.0.0",
+  "description": "TBP - kontrolna ploča - Neo4j",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js",
+    "Neo4j",
+    "TBP",
+    "kontrolna",
+    "ploča"
+  ],
+  "author": "bujin",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "neo4j-driver": "^5.16.0",
+    "nodemon": "^3.0.2",
+    "opener": "^1.5.2"
+  }
+}
