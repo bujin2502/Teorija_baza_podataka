@@ -8,7 +8,7 @@ Aplikacija izrađena u Node.js za potrebe kolegija "Teorija baza podataka".
 
 ## Preduvjeti
 
-Prije pokretanja aplikacije potrebno je instalirati Node.js na sustav. Node.js se nalazi na "https://nodejs.org/en".
+Prije pokretanja aplikacije potrebno je instalirati Node.js na sustav. Node.js se nalazi na [Node.js](https://nodejs.org/en).
 Nakon toga može se skinuti ovaj kod (može i prije, ali bilo bi dobro imati spremno okruženje)
 
 ## Instalacija
